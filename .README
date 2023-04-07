@@ -1,0 +1,20 @@
+###******** Limpiamac ***********####
+
+Este pequeño programa mueve archivos desde el escritorio y descarga
+a papelera en OSX. Tambien borra archivo de historial de Google Chrome.
+Se hizo con el objetivo de mantener limpios laboratorios de computadores en 
+una institución X, ya que los alumnos tienden a trabajar desordenado y no
+borrar archivos no utiles ya. Gestionar 100 IMAC manualmente uno por uno
+implica gastar mucho tiempo en una funcion facilmente automatizable.
+
+Se puede usar con Crontab para automatizar la limpieza de sistemas a días
+y horas determinadas, no agrego la manera acá, pero tutoriales a ese respecto 
+hay varios por internet.
+
+Lo he probado con Apple Remote Control y esta funcionando esta primera version
+de producción. 
+
+Si se necesita borrar otros archivos, solo habría que modificar las funciones
+usadas y agregar otra ruta de carpeta.
+
+Tiene mensajes por consola, tiene errores pero funciona sin dañar nada en el sistema. 
